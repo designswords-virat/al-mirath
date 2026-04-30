@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="AL Mirath Real Estate — Dubai's property book, kept since 2010. Sales, rentals & management across 14 communities.">
+<meta property="og:title" content="AL Mirath Real Estate — Dubai, Since 2010">
+<meta property="og:description" content="Sales, rentals & management across 14 Dubai communities.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F4EFE5">
+<title>AL Mirath Real Estate — Dubai, Since 2010</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..600,0..100&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__type" id="loaderType">
+    <span>A</span><span>L</span><span>&nbsp;</span><span>M</span><span>I</span><span>R</span><span>A</span><span>T</span><span>H</span>
+  </div>
+  <div class="loader__rule"></div>
+</div>
+
+<!-- Cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav__brand" data-cursor>AL MIRATH</a>
+  <ul class="nav__links">
+    <li><a href="#listings" data-cursor>Listings</a></li>
+    <li><a href="#areas" data-cursor>Areas</a></li>
+    <li><a href="#why" data-cursor>Why Us</a></li>
+    <li><a href="#contact" data-cursor>Contact</a></li>
+  </ul>
+  <a href="tel:+971527466777" class="nav__phone" data-cursor>+971 52 7466 777</a>
+  <button class="nav__hamburger" id="navHamburger" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <ul>
+    <li><a href="#listings">Listings</a></li>
+    <li><a href="#areas">Areas</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="tel:+971527466777" class="mobile-menu__phone">+971 52 7466 777</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__inner">
+    <p class="eyebrow" data-fade>Dubai · Since 2010</p>
+    <h1 class="hero__title" data-fade>Dubai real estate,<br><em>written down.</em></h1>
+    <p class="hero__sub" data-fade>AL Mirath has kept Dubai's property book since 2010 — sales, rentals, and management across the city's most-asked-for communities. Open it slowly.</p>
+    <a href="#listings" class="btn-rust" data-cursor data-fade>Open the book <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="hero__meta" data-fade>
+    <span>Office 228 · Sheikh Zayed Road · Dubai</span>
+    <span>Page 01</span>
+  </div>
+</section>
+
+<!-- MANIFESTO STRIP -->
+<section class="strip">
+  <div class="strip__row">
+    <div class="strip__cell" data-fade><span class="strip__num">2010</span><span class="strip__lbl">Founded</span></div>
+    <div class="strip__cell" data-fade><span class="strip__num">14</span><span class="strip__lbl">Communities</span></div>
+    <div class="strip__cell" data-fade><span class="strip__num">10+</span><span class="strip__lbl">Developers</span></div>
+    <div class="strip__cell" data-fade><span class="strip__num">4.7<small>★</small></span><span class="strip__lbl">Google · 91 reviews</span></div>
+  </div>
+</section>
+
+<!-- LISTINGS — The Ledger -->
+<section class="ledger" id="listings">
+  <div class="ledger__head">
+    <div class="ledger__head__left" data-fade>
+      <p class="eyebrow">Selected Listings</p>
+      <h2 class="section-title">This week's<br><em>open pages.</em></h2>
+    </div>
+    <div class="ledger__head__right" data-fade>
+      <span class="ledger__date">Week 17 · 2026</span>
+      <span class="ledger__count">06 entries</span>
+    </div>
+  </div>
+
+  <div class="ledger__list">
+
+    <article class="entry" data-fade>
+      <div class="entry__num">01</div>
+      <div class="entry__main">
+        <p class="entry__type">Villa · For Sale</p>
+        <h3 class="entry__name">Beachfront Ultra-Luxury</h3>
+        <p class="entry__loc">Palm Jebel Ali, Dubai</p>
+        <p class="entry__specs">5 bedrooms · 6 bathrooms · 7,000 sq ft</p>
+      </div>
+      <div class="entry__price">
+        <span class="entry__amount">AED 18.5M</span>
+        <a class="entry__cta" href="https://www.almirath.ae/" target="_blank" rel="noopener" data-cursor>View →</a>
+      </div>
+    </article>
+
+    <article class="entry" data-fade>
+      <div class="entry__num">02</div>
+      <div class="entry__main">
+        <p class="entry__type">Villa · For Sale</p>
+        <h3 class="entry__name">The Acres — Luxury Family Villa</h3>
+        <p class="entry__loc">The Acres, Dubai</p>
+        <p class="entry__specs">3 bedrooms · 4 bathrooms · 4,294 sq ft</p>
+      </div>
+      <div class="entry__price">
+        <span class="entry__amount">AED 7.5M</span>
+        <a class="entry__cta" href="https://www.almirath.ae/" target="_blank" rel="noopener" data-cursor>View →</a>
+      </div>
+    </article>
+
+    <article class="entry" data-fade>
+      <div class="entry__num">03</div>
+      <div class="entry__main">
+        <p class="entry__type">Villa · For Sale</p>
+        <h3 class="entry__name">Prime-Location Villa</h3>
+        <p class="entry__loc">Emaar South, Dubai</p>
+        <p class="entry__specs">3 bedrooms · 4 bathrooms · 1,401 sq ft</p>
+      </div>
+      <div class="entry__price">
+        <span class="entry__amount">AED 2.0M</span>
+        <a class="entry__cta" href="https://www.almirath.ae/" target="_blank" rel="noopener" data-cursor>View →</a>
+      </div>
+    </article>
+
+    <article class="entry" data-fade>
+      <div class="entry__num">04</div>
+      <div class="entry__main">
+        <p class="entry__type">Apartment · Off-Plan</p>
+        <h3 class="entry__name">Design District Apartment</h3>
+        <p class="entry__loc">Dubai Design District (D3)</p>
+        <p class="entry__specs">2 bedrooms · 2 bathrooms · 1,167 sq ft</p>
+      </div>
+      <div class="entry__price">
+        <span class="entry__amount">AED 3.06M</span>
+        <a class="entry__cta" href="https://www.almirath.ae/" target="_blank" rel="noopener" data-cursor>View →</a>
+      </div>
+    </article>
+
+    <article class="entry" data-fade>
+      <div class="entry__num">05</div>
+      <div class="entry__main">
+        <p class="entry__type">Apartment · For Sale</p>
+        <h3 class="entry__name">Studio in Arjan</h3>
+        <p class="entry__loc">Arjan, Dubai</p>
+        <p class="entry__specs">Studio · 1 bathroom · 440 sq ft</p>
+      </div>
+      <div class="entry__price">
+        <span class="entry__amount">AED 706K</span>
+        <a class="entry__cta" href="https://www.almirath.ae/" target="_blank" rel="noopener" data-cursor>View →</a>
+      </div>
+    </article>
+
+    <article class="entry" data-fade>
+      <div class="entry__num">06</div>
+      <div class="entry__main">
+        <p class="entry__type">Villa · For Lease</p>
+        <h3 class="entry__name">Premium Villa, Jumeirah 1</h3>
+        <p class="entry__loc">Jumeirah 1, Dubai</p>
+        <p class="entry__specs">6 bedrooms · 7 bathrooms · annual lease</p>
+      </div>
+      <div class="entry__price">
+        <span class="entry__amount">AED 1.5M / yr</span>
+        <a class="entry__cta" href="https://www.almirath.ae/" target="_blank" rel="noopener" data-cursor>View →</a>
+      </div>
+    </article>
+
+  </div>
+
+  <a href="https://www.almirath.ae/" target="_blank" rel="noopener" class="ledger__all" data-cursor data-fade>See the full register <span aria-hidden="true">→</span></a>
+</section>
+
+<!-- DEVELOPERS -->
+<section class="developers">
+  <div class="developers__inner" data-fade>
+    <p class="eyebrow">We open with</p>
+    <ul class="developers__list">
+      <li>EMAAR</li>
+      <li class="dot">·</li>
+      <li>DAMAC</li>
+      <li class="dot">·</li>
+      <li>Sobha</li>
+      <li class="dot">·</li>
+      <li>Binghatti</li>
+      <li class="dot">·</li>
+      <li>Arada</li>
+      <li class="dot">·</li>
+      <li>Dubai Holding</li>
+    </ul>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section class="areas" id="areas">
+  <div class="areas__head" data-fade>
+    <p class="eyebrow">14 Communities</p>
+    <h2 class="section-title">From the Palm<br>to <em>Al Barsha.</em></h2>
+    <p class="areas__sub">Fourteen Dubai communities, kept on file. We know which buildings face the view, which streets have the school within walking distance, which off-plan towers are honest with their handover dates.</p>
+  </div>
+  <ul class="areas__grid">
+    <li><span class="areas__n">01</span><span class="areas__name">Arabian Ranches</span></li>
+    <li><span class="areas__n">02</span><span class="areas__name">DAMAC Hills</span></li>
+    <li><span class="areas__n">03</span><span class="areas__name">Dubai Hills</span></li>
+    <li><span class="areas__n">04</span><span class="areas__name">Dubai South</span></li>
+    <li><span class="areas__n">05</span><span class="areas__name">Emaar South</span></li>
+    <li><span class="areas__n">06</span><span class="areas__name">Expo City</span></li>
+    <li><span class="areas__n">07</span><span class="areas__name">DAMAC Lagoons</span></li>
+    <li><span class="areas__n">08</span><span class="areas__name">Downtown Dubai</span></li>
+    <li><span class="areas__n">09</span><span class="areas__name">Al Furjan</span></li>
+    <li><span class="areas__n">10</span><span class="areas__name">Jumeirah Island</span></li>
+    <li><span class="areas__n">11</span><span class="areas__name">Jumeirah Village Circle</span></li>
+    <li><span class="areas__n">12</span><span class="areas__name">Jumeirah Village Triangle</span></li>
+    <li><span class="areas__n">13</span><span class="areas__name">Umm Suqeim</span></li>
+    <li><span class="areas__n">14</span><span class="areas__name">Al Barsha</span></li>
+  </ul>
+</section>
+
+<!-- WHY MIRATH -->
+<section class="why" id="why">
+  <div class="why__head" data-fade>
+    <p class="eyebrow">Why Mirath</p>
+    <h2 class="section-title">Why brokers<br>introduce us<em> to brokers.</em></h2>
+  </div>
+  <div class="why__grid">
+    <div class="why__item" data-fade>
+      <span class="why__num">01</span>
+      <h3 class="why__title">One desk, three lines.</h3>
+      <p class="why__body">Sales, rentals, and property management — same broker, same continuity, year on year. The same hand that found the apartment manages it after.</p>
+    </div>
+    <div class="why__item" data-fade>
+      <span class="why__num">02</span>
+      <h3 class="why__title">Sixteen years deep.</h3>
+      <p class="why__body">We watched these communities go up. We know which buildings face the view, which lifts go to which floor, which towers are quiet at sunset.</p>
+    </div>
+    <div class="why__item" data-fade>
+      <span class="why__num">03</span>
+      <h3 class="why__title">A wider register.</h3>
+      <p class="why__body">Off-plan, primary, resale, lease — we open the page that fits the brief, not the page the developer is pushing this quarter.</p>
+    </div>
+    <div class="why__item" data-fade>
+      <span class="why__num">04</span>
+      <h3 class="why__title">Every detail, certain.</h3>
+      <p class="why__body">RERA-registered. Paperwork transparent. Transfers walked through the Dubai Land Department in person, not faxed.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial" data-fade>
+  <p class="eyebrow">4.7 ★ on Google · 91 reviews</p>
+  <blockquote class="testimonial__quote">
+    "Prompt and efficient — the team responded the same day, walked us through three viewings on a Saturday, and we closed in five weeks. The kind of service that's hard to find in this city."
+  </blockquote>
+  <p class="testimonial__cite">A buyer · Jumeirah · 2025</p>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact__head" data-fade>
+    <p class="eyebrow">Visit us</p>
+    <h2 class="section-title">Find us on<br><em>Sheikh Zayed Road.</em></h2>
+  </div>
+  <div class="contact__details" data-fade>
+    <div class="contact__item">
+      <span class="contact__lbl">Office</span>
+      <p>Office 228, B Block<br>Matloob Building<br>Sheikh Zayed Road<br>Dubai, UAE</p>
+    </div>
+    <div class="contact__item">
+      <span class="contact__lbl">Phone</span>
+      <p><a href="tel:+971527466777" data-cursor>+971 52 7466 777</a></p>
+    </div>
+    <div class="contact__item">
+      <span class="contact__lbl">Email</span>
+      <p><a href="mailto:info@almirath.ae" data-cursor>info@almirath.ae</a></p>
+    </div>
+    <div class="contact__item">
+      <span class="contact__lbl">Hours</span>
+      <p>Sun–Thu, 09:00 – 18:00<br>Closed Friday & Saturday</p>
+    </div>
+  </div>
+  <div class="contact__ctas" data-fade>
+    <a href="tel:+971527466777" class="btn-rust" data-cursor>Call us <span aria-hidden="true">→</span></a>
+    <a href="https://wa.me/971527466777" target="_blank" rel="noopener" class="btn-outline" data-cursor>WhatsApp <span aria-hidden="true">→</span></a>
+    <a href="mailto:info@almirath.ae" class="btn-outline" data-cursor>Email <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__top">
+    <div class="footer__col">
+      <a href="#top" class="footer__brand" data-cursor>AL MIRATH</a>
+      <p class="footer__line">Dubai's property book, kept since 2010.</p>
+      <p class="footer__line footer__line--small">RERA-registered · Sheikh Zayed Road · Dubai</p>
+    </div>
+    <div class="footer__col">
+      <h6>Communities</h6>
+      <ul>
+        <li><a href="#areas">Arabian Ranches</a></li>
+        <li><a href="#areas">DAMAC Hills</a></li>
+        <li><a href="#areas">Dubai Hills</a></li>
+        <li><a href="#areas">Dubai South</a></li>
+        <li><a href="#areas">Emaar South</a></li>
+        <li><a href="#areas">Expo City</a></li>
+        <li><a href="#areas">Downtown</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h6>More</h6>
+      <ul>
+        <li><a href="#areas">DAMAC Lagoons</a></li>
+        <li><a href="#areas">Al Furjan</a></li>
+        <li><a href="#areas">Jumeirah Island</a></li>
+        <li><a href="#areas">JVC</a></li>
+        <li><a href="#areas">JVT</a></li>
+        <li><a href="#areas">Umm Suqeim</a></li>
+        <li><a href="#areas">Al Barsha</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h6>Get in touch</h6>
+      <p>Office 228, B Block<br>Matloob Building<br>Sheikh Zayed Road, Dubai</p>
+      <p><a href="tel:+971527466777">+971 52 7466 777</a></p>
+      <p><a href="mailto:info@almirath.ae">info@almirath.ae</a></p>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/almirath_ae/" target="_blank" rel="noopener" data-cursor>Instagram</a>
+        <a href="https://www.facebook.com/MirathRealEstateDubai/" target="_blank" rel="noopener" data-cursor>Facebook</a>
+        <a href="https://x.com/mirath_ae" target="_blank" rel="noopener" data-cursor>X</a>
+        <a href="https://in.pinterest.com/almirathrealestate/" target="_blank" rel="noopener" data-cursor>Pinterest</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 AL Mirath Real Estate · All rights reserved</span>
+    <div class="footer__legal">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+      <a href="#">RERA Compliance</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
